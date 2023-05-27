@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  background-color: aquamarine;
+  height: 100px;
+}
+.body-section {
+  background-color: rgb(210, 255, 127);
+  height: 400px;
+  width: 600px;
+}
+.right-side {
+  /* background-color: aquamarine; */
+  height: 100px;
+  width: 500px;
+  margin-left: 2rem;
+}
+
+.main-body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  margin-top: 2rem;
+}
+
+.one {
+  display: flex;
+  /* flex-direction: column; */
+}
+.vid {
+  height: 400px;
+  width: 600px;
+}
+/* BEGINNING OF HEADER STYLING */
+.logo-img {
+  width: 100px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  margin: 1rem 2rem;
+}
+.input {
+  width: 50%;
+  height: 30px;
+  border-radius: 15px;
+  border-color: rgb(200, 198, 198);
+  /* outline: none; */
+  /* border-top: none; */
+}
+.icons {
+  display: flex;
+  /* background-color: aquamarine; */
+  width: 200px;
+  justify-content: space-between;
+}
+.name {
+  background-color: rgb(69, 69, 109);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 0px;
+  /* align-self: center; */
+}
+.name-p {
+  /* text-align: center; */
+  margin: 5px;
+  color: white;
+}
+.video {
+  font-size: 1.3rem;
+  /* color: white; */
+}
+.bar {
+  font-size: 1.3rem;
+  margin-right: 2rem;
+  margin-top: 0px;
+}
+/* END OF HEADER STYLING */
+
+/* BEGINNING OF RIGHT STYLING */
+.btn-container {
+  margin-bottom: 1rem;
+}
+.btn {
+  border-radius: 5px;
+  border: none;
+  text-transform: capitalize;
+  padding: 0.2rem 1rem;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.img {
+  width: 30%;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.info-p {
+  color: gray;
+  margin: 0;
+  /* line-height: 1.6; */
+}
+.info-h4 {
+  /* color: gray; */
+  margin: 0;
+  line-height: 1.6;
+}
+h4 {
+  color: rgb(43, 43, 43);
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.one{
+    margin-bottom: 1rem;
+}
+/* .one-realimage{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+    background-color: aquamarine;
+} */
+/* .one{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+} */
+/* END OF RIGHT STYLING */
+
+/* BEGINNING OF LEFT STYLING */
+.vid-info{
+    display: flex;
+}
+.vid-title{
+    margin: 0.6rem 0;
+    color: rgb(43, 43, 43);
+}
+.vid-info{
+    display: flex;
+    justify-content: space-between;
+}
+.channel-likes{
+    color: gray;
+}
+.chanel-name{
+    display: flex;
+}
+.name{
+    /* display: flex; */
+    margin-right: 1rem;
+}
+.likes-span{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.subscribe{
+    background: rgb(26, 25, 25);
+    color: white;
+    text-transform: capitalize;
+    border-radius: 20px;
+    padding: 0.1rem 1.5rem;
+    border: none;
+    height: 37px;
+
+}
+.like-button{
+    padding: 0.4rem 2.3rem; 
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+
+}
+.like-btn{
+    /* background-color: antiquewhite; */
+}
+.like{
+    margin: 0 0.3rem;
+    font-size: 1.3rem;
+    /* border-right: 1px solid grey; */
+}
+.dislike{
+    margin: 0 0.3rem;
+    font-size: 1.3rem;
+    /* border-right: 1px solid grey; */
+    /* border-spacing: 4rem; */
+    /* border-right: 1px solid grey; */
+}
+.share{
+    padding: 0.1rem 1.5rem; 
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    height: 37px;
+
+    text-transform: capitalize;
+
+}
+.share-icon{
+    margin-right:  0.3rem;
+    /* margin:0 0.2rem;
+    margin- */
+}
+.description{
+    background-color: rgb(240, 239, 237);
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.show-more{
+    font-weight: bold;
+    color: rgb(21, 21, 21);
+}
+.left-views{
+    margin: 0;
+    line-height: 1.6;
+    color: rgb(21, 21, 21);
+}
+/* END OF LEFT STYLING */
